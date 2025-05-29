@@ -113,7 +113,7 @@ docker run -it --rm -p 8501:8501 josojmf/modelv2cnn-app:latest
 ### 🔸 ModelV3Fourier - CNN + Transformada de Fourier
 
 ```bash
-docker run -it --rm josojmf/modelv3fourier-app:latest
+docker run -it --rm -p 8501:8501 josojmf/modelv3fourier-app:latest
 
 ```
 
@@ -124,7 +124,7 @@ docker run -it --rm josojmf/modelv3fourier-app:latest
 ### 🔹 ModelV3.5Fourier - Versión optimizada GPU-ready
 
 ```bash
-docker run -it --rm josojmf/modelv3.5fourier:23-03-2025
+docker run -it --rm -p 8501:8501 josojmf/modelv3.5fourier:23-03-2025
 
 ```
 

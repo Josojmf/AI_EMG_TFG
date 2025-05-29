@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  modelv3.5fourier:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: modelv3.5fourier
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    restart: unless-stopped

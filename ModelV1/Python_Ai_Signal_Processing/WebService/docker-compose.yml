@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  modelv1ffnn:
+    build: .
+    image: modelv1ffnn:latest
+    container_name: modelv1ffnn
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app  
+    restart: always
+    depends_on:
+      - mongo
+    networks:
+      - modelv1-net
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: joso
+      MONGO_INITDB_ROOT_PASSWORD: test123
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - modelv1-net
+
+volumes:
+  mongodb_data:
+
+networks:
+  modelv1-net:

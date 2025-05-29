@@ -1,0 +1,7 @@
+*.csv
+/Datasets/*
+/Test_Data/*
+*.csv
+*.log
+ECG_Modeling.zip
+.env

@@ -1,0 +1,14 @@
+Model Training Report
+========================================
+Final Training Accuracy: 0.9843
+Final Validation Accuracy: 0.1727
+Final Training Loss: 0.1259
+Final Validation Loss: 3.0575
+
+Classification Report:
+              precision    recall  f1-score      support
+0              0.976839  0.790518  0.873857   907.000000
+1              0.977378  0.997933  0.987549  8226.000000
+accuracy       0.977335  0.977335  0.977335     0.977335
+macro avg      0.977109  0.894226  0.930703  9133.000000
+weighted avg   0.977325  0.977335  0.976258  9133.000000

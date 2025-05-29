@@ -1,0 +1,15 @@
+Model Evaluation Report
+==================================================
+Accuracy: 0.4444
+Precision: 0.4545
+Recall: 0.5556
+F1 Score: 0.5000
+ROC-AUC Score: 0.4444
+MCC: -0.1140
+Balanced Accuracy: 0.4444
+Cohen's Kappa: -0.1111
+Jaccard Similarity: 0.3333
+Fowlkes-Mallows Index: 0.5048
+Hamming Loss: 0.555556
+Log Loss: 20.0243
+

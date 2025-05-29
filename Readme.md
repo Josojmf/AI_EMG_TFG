@@ -43,7 +43,7 @@ Cada carpeta contiene un modelo entrenado independiente con arquitectura distint
 
 ---
 
-## 🐳 Ejecución rápida con DockerHub
+## 🐳 Ejecución rápida con DockerHub (Recomendado)
 
 Puedes ejecutar los modelos directamente desde las imágenes publicadas en DockerHub sin clonar el repositorio.
 

@@ -40,9 +40,52 @@ Cada carpeta contiene un modelo entrenado independiente con arquitectura distint
 
 ## 🚀 Cómo ejecutar cada modelo
 
+
+---
+
+## 🐳 Ejecución rápida con DockerHub
+
+Puedes ejecutar los modelos directamente desde las imágenes publicadas en DockerHub sin clonar el repositorio.
+
+### 🔹 ModelV2CNN - CNN básica
+
+```bash
+docker run -it --rm -p 8501:8501 josojmf/modelv2cnn-app:latest
+
+```
+
+📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv2cnn-app)
+
+---
+
+### 🔸 ModelV3Fourier - CNN + Transformada de Fourier
+
+```bash
+docker run -it --rm -p 8501:8501 josojmf/modelv3fourier-app:latest
+
+```
+
+📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv3fourier-app)
+
+---
+
+### 🔹 ModelV3.5Fourier - Versión optimizada GPU-ready
+
+```bash
+docker run -it --rm -p 8501:8501 josojmf/modelv3.5fourier:23-03-2025
+
+```
+
+📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv3.5fourier)
+
+---
+
+> 🧠 Las imágenes incluyen todas las dependencias necesarias, entornos configurados y punto de entrada predefinido.
+
 > ⚠️ Asegúrate de tener `Python 3.9+` o usar los contenedores `Docker` proporcionados.
 
 ---
+## Ejecución local
 
 ### 🔸 1. ModelV1 - Perceptrón multicapa (MLP)
 
@@ -93,46 +136,6 @@ python mainGPU.py
 
 
 
----
-
-## 🐳 Ejecución rápida con DockerHub
-
-Puedes ejecutar los modelos directamente desde las imágenes publicadas en DockerHub sin clonar el repositorio.
-
-### 🔹 ModelV2CNN - CNN básica
-
-```bash
-docker run -it --rm -p 8501:8501 josojmf/modelv2cnn-app:latest
-
-```
-
-📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv2cnn-app)
-
----
-
-### 🔸 ModelV3Fourier - CNN + Transformada de Fourier
-
-```bash
-docker run -it --rm -p 8501:8501 josojmf/modelv3fourier-app:latest
-
-```
-
-📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv3fourier-app)
-
----
-
-### 🔹 ModelV3.5Fourier - Versión optimizada GPU-ready
-
-```bash
-docker run -it --rm -p 8501:8501 josojmf/modelv3.5fourier:23-03-2025
-
-```
-
-📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv3.5fourier)
-
----
-
-> 🧠 Las imágenes incluyen todas las dependencias necesarias, entornos configurados y punto de entrada predefinido.
 
 
 

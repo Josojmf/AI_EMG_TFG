@@ -102,7 +102,7 @@ Puedes ejecutar los modelos directamente desde las imágenes publicadas en Docke
 ### 🔹 ModelV2CNN - CNN básica
 
 ```bash
-docker run -it --rm josojmf/modelv2cnn-app:latest
+docker run -it --rm -p 8501:8501 josojmf/modelv2cnn-app:latest
 
 ```
 

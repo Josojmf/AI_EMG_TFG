@@ -102,7 +102,8 @@ Puedes ejecutar los modelos directamente desde las imágenes publicadas en Docke
 ### 🔹 ModelV2CNN - CNN básica
 
 ```bash
-docker run -it --rm josojmf/modelv2cnn-app
+docker run -it --rm josojmf/modelv2cnn-app:latest
+
 ```
 
 📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv2cnn-app)
@@ -112,7 +113,8 @@ docker run -it --rm josojmf/modelv2cnn-app
 ### 🔸 ModelV3Fourier - CNN + Transformada de Fourier
 
 ```bash
-docker run -it --rm josojmf/modelv3fourier-app
+docker run -it --rm josojmf/modelv3fourier-app:latest
+
 ```
 
 📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv3fourier-app)
@@ -122,7 +124,8 @@ docker run -it --rm josojmf/modelv3fourier-app
 ### 🔹 ModelV3.5Fourier - Versión optimizada GPU-ready
 
 ```bash
-docker run -it --rm josojmf/modelv3.5fourier
+docker run -it --rm josojmf/modelv3.5fourier:23-03-2025
+
 ```
 
 📦 [Ver en DockerHub](https://hub.docker.com/repository/docker/josojmf/modelv3.5fourier)
